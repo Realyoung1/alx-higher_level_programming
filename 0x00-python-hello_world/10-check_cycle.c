@@ -10,9 +10,9 @@
  * @list: pointers to the beginning of the node
  * Return: 0 if no cycle, 1 if there is a cycle absolutely
  */
-int check_cycle(listint_v *list)
+int check_cycle(listint_t *list)
 {
-	listint_v *current, *check;
+	listint_t *current, *check;
 
 	if (list == NULL || list->next == NULL)
 		return (0);
