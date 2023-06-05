@@ -18,11 +18,11 @@ typedef struct listint_s
 {
     int n;
     struct listint_s *next;
-} listint_t;
+} listint_v;
 
-size_t print_listint(const listint_t *h);
-listint_t *add_nodeint(listint_t **head, const int n);
-void free_listint(listint_t *head);
-int check_cycle(listint_t *list);
+size_t print_listint(const listint_v *h);
+listint_v *add_nodeint(listint_v **head, const int n);
+void free_listint(listint_v *head);
+int check_cycle(listint_v *list);
 
 #endif /* LISTS_H */
