@@ -17,3 +17,6 @@ The task includes.
 8- Creating a new sentence
 9- Easter Egg.
 10- Linked list cycle
+11- Hello, Write
+12- Compilation
+13- ByteCode -> Python #1
