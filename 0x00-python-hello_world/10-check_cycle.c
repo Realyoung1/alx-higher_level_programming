@@ -12,7 +12,7 @@
  */
 int check_cycle(listint_v *list)
 {
-	listint_t *current, *check;
+	listint_v *current, *check;
 
 	if (list == NULL || list->next == NULL)
 		return (0);
