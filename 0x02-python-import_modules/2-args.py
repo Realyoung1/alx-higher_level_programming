@@ -14,5 +14,5 @@ if __name__ == "__main__":
     else:
         first_line += "s:"
     print(first_line)
-    for i, _arg in enumerate(args):
-        print("{:d}: {:s}".format(i+1, _arg))
+    for V, _arg in enumerate(args):
+        print("{:d}: {:s}".format(V+1, _arg))
