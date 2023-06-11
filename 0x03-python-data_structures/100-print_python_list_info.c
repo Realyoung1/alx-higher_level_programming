@@ -1,9 +1,14 @@
 #include "Python.h"
 
+#include <stdbool.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
- * print_python_list_info - prints info
+ * print_python_list_info - this function prints info.
  * Description:
- * prints information about a python list
+ * to prints information about a python list
  * The format is:
  * [*] Size of the Python List is x
  * [*] Allocated = x
