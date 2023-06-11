@@ -1,17 +1,17 @@
 #!/usr/bin/python3
-def new_in_list(my_list, idx, element):
+def new_in_list(my_list, vdx, element):
     """
-    replace an elment from a list at index idx with elem
+    replace an element from a list at index vdx with element
     Args:
-        my_list - list to search
-        idx - the position to access
-        element - new elem to swap with
+        my_list - function list to search.
+        vdx - function the position to access.
+        element - new element to swap with.
     Return:
         modified my_list
     """
 
     copy_list = my_list[:]
-    if idx < 0 or idx >= len(copy_list):
+    if vdx < 0 or vdx >= len(copy_list):
         return copy_list
-    copy_list[idx] = element
+    copy_list[vdx] = element
     return copy_list
