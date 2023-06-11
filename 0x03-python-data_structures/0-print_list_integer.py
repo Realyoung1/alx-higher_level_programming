@@ -7,5 +7,5 @@ def print_list_integer(my_list=[]):
         my_list - list of integers defauult []
     """
 
-    for i in my_list:
-        print("{:d}".format(i))
+    for v in my_list:
+        print("{:d}".format(v))
