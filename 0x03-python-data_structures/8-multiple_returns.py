@@ -2,7 +2,7 @@
 
 def multiple_returns(sentence):
     """
-    find the length and first character of a str
+    find lengths and firsst characters of a str
     Args:
         sentence - a string
     Return:
