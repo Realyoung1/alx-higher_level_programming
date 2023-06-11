@@ -2,7 +2,7 @@
 
 def divisible_by_2(my_list=[]):
     """
-    find the values divisible by two in list
+    find the value divisible by 2 in list
     Args:
         my_list - list to search
     Return:
