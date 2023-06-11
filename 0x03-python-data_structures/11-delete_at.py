@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 
-def delete_at(my_list=[], idx=0):
+def delete_at(my_list=[], vdx=0):
     """
-    deletes an elment from a list at index idx
+    delete an elements from a list at index vdx
     Args:
-        my_list - list to search
-        idx - the position to access
+        my_list - function list to search.
+        vdx - function the position to access.
     Return:
-        my_list - if idx is out of range
+        my_list - if vdx is out of ranges.
     """
 
-    if idx > -1 and idx < len(my_list):
-        del my_list[idx]
+    if vdx > -1 and vdx < len(my_list):
+        del my_list[vdx]
     return my_list
