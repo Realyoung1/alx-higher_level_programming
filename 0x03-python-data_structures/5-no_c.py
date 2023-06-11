@@ -2,7 +2,7 @@
 
 def no_c(my_string):
     """
-    Returns a copy of my_string without c or C
+    Return a copy of my_string without c or C
     Args:
         my_string - the string to filter
     """
