@@ -2,12 +2,12 @@
 
 def add_tuple(a=(), b=()):
     """
-    add the fisrst and second elems of a b
-    if any of a or b has less than 2 elems
-    0 is padded
+    add the firsst and second elemens of a b
+    if any of a or b is less than 2 elemens
+    0 is padded.
     Args:
-        a - tuple default empty
-        b - tuple default empty
+        a - funtion for tuple default empty
+        b - function for tuple default empty
     Return:
         (c, d)
     """
