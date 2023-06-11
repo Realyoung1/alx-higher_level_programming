@@ -4,9 +4,9 @@ def max_integer(my_list=[]):
     """
     find the maximum value of a list
     Args:
-        my_list - list to search
+        my_list - function of list to search.
     Return:
-        None - if list is empty
+        None - function if list is empty.
         maximum of list
     """
 
@@ -14,7 +14,7 @@ def max_integer(my_list=[]):
     if length == 0:
         return None
     Max = my_list[0]
-    for i in my_list:
-        if i > Max:
+    for v in my_list:
+        if v > Max:
             Max = i
     return Max
