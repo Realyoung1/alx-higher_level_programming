@@ -1,17 +1,17 @@
 #!/usr/bin/python3
 
-def element_at(my_list, idx):
+def element_at(my_list, vdx):
     """
-    gets an elment from a list at index idx
+    gets an elment from a list at index vdx
     Args:
-        my_list - list to search
-        idx - the position to access
+        my_list - function list to search.
+        vdx - function the position to access.
     Return:
-        None - if idx is out of range
-        Data - element at idx
+        None - if vdx is out of ranges.
+        Data - element at vdx.
     """
 
-    if idx < 0 or idx >= len(my_list):
+    if vdx < 0 or vdx >= len(my_list):
         return None
     else:
-        return my_list[idx]
+        return my_list[vdx]
