@@ -1,17 +1,22 @@
 #include "lists.h"
 
+#include <stdbool.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
- * is_palindrome - chexk if a list is palindrome
+ * is_palindrome - function to chek if a list is palindrome.
  * Description:
- * The approach uses the fact that a list
+ * The approach uses the fact that the list
  * - is palindrom if:
- *   its first half is thesame as the reverse
- *   of its last half
- * - else its not a palindrom
- * The middle element is found using the
- * tortoise hare algorithm
+ *   the first half is same as the reverse
+ *   of its last halfs
+ * - else its not a palindrom if
+ * The middle elments is found using the
+ * tortoise hare algorithms
  * In the case where the list has odd length
- * the middle element is disregarded
+ * the middle elments is disregarded.
  *
  * @list: pointer to list
  * Return: 1 if true 0 otherwise
@@ -62,8 +67,8 @@ int is_palindrome(listint_t **list)
 }
 
 /**
- * reverse_listint - reverses a linked list
- * @h: head of the list
+ * reverse_listint - this function reverses a linked list
+ * @h: head of the list.
  *
  * Return: pointer to the reversed
  */
