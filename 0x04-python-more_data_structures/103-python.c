@@ -1,10 +1,14 @@
 #include <Python.h>
 #include <stdio.h>
+#include <stdbool.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * print_python_bytes - gives data of the PyBytesObject
+ * print_python_bytes - function that gives data of the Py Bytes Objects.
  *
- * @p: the PyObject
+ * @p: the Py Objects.
  */
 
 void print_python_bytes(PyObject *p)
@@ -35,7 +39,7 @@ void print_python_bytes(PyObject *p)
 }
 
 /**
- * print_python_list - gives data of the PyListObject
+ * print_python_list - funtions that gives data of the Py List Object.
  *
  * @p: the PyObject
  */
