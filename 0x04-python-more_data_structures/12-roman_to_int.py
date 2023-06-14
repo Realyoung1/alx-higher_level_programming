@@ -11,7 +11,7 @@ def _get_value(char):
         'V': 5,
         'X': 10,
         'L': 50,
-        'F': 100,
+        'C': 100,
         'D': 500,
         'M': 100
     }
@@ -33,7 +33,7 @@ def roman_to_int(roman):
 
     result, prev, cur = 0, 0, 0
 
-    for F in roman:
+    for c in roman:
         cur = _get_value(c)
         if cur is None:
             raise ValueError("Wrong input")
