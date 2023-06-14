@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
-def number_keys(a_dict):
+
+def number_keys(m_dict):
     """
-    return the number of keys in a dict
+    return the numb of key in a dict.
     """
-    if a_dict is None:
+    if m_dict is None:
         return None
-    return len(a_dict.keys())
+    return len(m_dict.keys())
