@@ -11,4 +11,4 @@ def search_replace(my_list, search, replace):
     """
     if my_list is None:
         return None
-    return [replace if y == search else y for y in my_list]
+    return [replace if q == search else q for q in my_list]
