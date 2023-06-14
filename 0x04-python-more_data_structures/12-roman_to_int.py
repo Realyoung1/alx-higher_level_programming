@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
+
 def _get_value(char):
     """
-    Returns the roman value of a character
-    None if its not a Roman Character
+    func Returns the roman value of a characters.
+    None if its not a Roman Characters.
     """
     romans = {
         'I': 1,
@@ -22,7 +23,7 @@ def _get_value(char):
 
 def roman_to_int(roman):
     """
-    Converts a roman numerals to Decimal
+    Convert a roman numerals to Decimal.
     Args:
         roman - the string f roman numerals
     """
