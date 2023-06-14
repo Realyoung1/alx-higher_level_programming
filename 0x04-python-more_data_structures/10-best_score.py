@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
-def best_score(a_dict):
+
+def best_score(m_dict):
     """
-    a function that returns a key with the biggest integer value
+    a func that returns a key with the biggest integers value.
     """
-    if a_dict is None or a_dict == {}:
+    if m_dict is None or m_dict == {}:
         return None
-    for key in a_dict.keys():
-        if a_dict[key] == max(a_dict.values()):
+    for key in m_dict.keys():
+        if m_dict[key] == max(m_dict.values()):
             return key
