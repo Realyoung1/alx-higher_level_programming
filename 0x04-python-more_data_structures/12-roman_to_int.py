@@ -33,8 +33,8 @@ def roman_to_int(roman):
 
     result, prev, cur = 0, 0, 0
 
-    for c in roman:
-        cur = _get_value(c)
+    for f in roman:
+        cur = _get_value(f)
         if cur is None:
             raise ValueError("Wrong input")
         if cur > prev:
