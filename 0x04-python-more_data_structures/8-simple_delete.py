@@ -7,6 +7,6 @@ def simple_delete(m_dict, key=""):
     """
     if m_dict is None:
         return None
-    if key in a_dict:
+    if key in m_dict:
         del m_dict[key]
     return m_dict
