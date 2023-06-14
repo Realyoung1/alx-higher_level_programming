@@ -1,14 +1,15 @@
 #!/usr/bin/python3
 
-def complex_delete(a_dict, value):
+
+def complex_delete(m_dict, value):
     """
-    removes a value in a dictiinary
+    removes a value in a dictiinaries
     """
-    if a_dict is None:
+    if m_dict is None:
         return None
     delete_key = None
-    keys = tuple(a_dict.keys())
+    keys = tuple(m_dict.keys())
     for key in keys:
-        if a_dict[key] == value:
-            del a_dict[key]
-    return a_dict
+        if m_dict[key] == value:
+            del m_dict[key]
+    return m_dict
