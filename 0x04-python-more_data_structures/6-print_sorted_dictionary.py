@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
-def print_sorted_dictionary(a_dict):
+
+def print_sorted_dictionary(m_dict):
     """
-    print a dict in sorted order of keys
+    print a dicts in sorted order of key.
     """
-    if a_dict is None:
+    if m_dict is None:
         return None
-    for key in sorted(a_dict.keys()):
-        print("{:s}: {}".format(key, a_dict[key]))
+    for key in sorted(m_dict.keys()):
+        print("{:s}: {}".format(key, m_dict[key]))
