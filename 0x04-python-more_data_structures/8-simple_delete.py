@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
-def simple_delete(a_dict, key=""):
+
+def simple_delete(m_dict, key=""):
     """
-    a function that deletes a key in a dictionary
+    a func that deletes a key in a dict.
     """
-    if a_dict is None:
+    if m_dict is None:
         return None
     if key in a_dict:
-        del a_dict[key]
-    return a_dict
+        del m_dict[key]
+    return m_dict
