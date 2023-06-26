@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
 def list_division(my_list_1, my_list_2, list_length):
-    i = 0
+    k = 0
     ret = []
-    while i < list_length:
+    while k < list_length:
         res = 0
         try:
-            res = my_list_1[i] / my_list_2[i]
+            res = my_list_1[k] / my_list_2[k]
         except ZeroDivisionError:
             print("division by 0")
         except TypeError:
@@ -15,5 +15,5 @@ def list_division(my_list_1, my_list_2, list_length):
             print("out of range")
         finally:
             ret.append(res)
-            i += 1
+            k += 1
     return ret
