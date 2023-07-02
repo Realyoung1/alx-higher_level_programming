@@ -4,13 +4,13 @@
 
 
 def get_matrix_sizes(matrix_1, matrix_2, name_1, name_2):
-    '''Computes the size of a matrix and performs some
-    matrix validation.
+    '''Compute the sizess of a matrix and performs some
+    matrix validationss.
     Args:
-        matrix (list): The matrix.
-        name (str): The name of the matrix.
+        matrix (list): this is the matrix.
+        name (str): This is the name of the matrix.
     Returns:
-        list. The rows and columns of the given matrix.
+        list. The rows and column of the given matrix.
     '''
     funcs = (
         lambda txt: '{} must be a list'.format(txt),
@@ -71,9 +71,9 @@ def matrix_mul(m_a, m_b):
         res = []
         for row_a in m_a:
             row_res = []
-            for i in range(b_sz[1]):
+            for k in range(b_sz[1]):
                 cell_args = zip(range(a_sz[1]), row_a)
-                val = map(lambda x: x[1] * m_b[x[0]][i], cell_args)
+                val = map(lambda x: x[1] * m_b[x[0]][k], cell_args)
                 row_res.append(sum(list(val)))
             res.append(row_res)
         return res
