@@ -10,7 +10,7 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         """Initializes a new Rect-angle more classes
         Args:
-            width (int): The width of the new rectangle.
+            width (int): this is The width of the new rect-angle more classes.
             height (int): The height of the new rectangle.
         """
         self.width = width
