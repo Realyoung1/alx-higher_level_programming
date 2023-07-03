@@ -19,7 +19,7 @@ class Rectangle:
         """Initializes a new Rect-angle more classes
         Args:
             width (int): this is The width of the new rect-angle more classes.
-            height (int): this is The height of the new rect-angle more classes.
+            height (int): this is The height of the rect-angle more classes.
         """
         type(self).number_of_instances += 1
         self.width = width
