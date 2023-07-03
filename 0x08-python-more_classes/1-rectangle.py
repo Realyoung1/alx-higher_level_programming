@@ -11,7 +11,7 @@ class Rectangle:
         """Initializes a new Rect-angle more classes.
         Args:
             width (int): this is The width of the new rect-angle more classes.
-            height (int): this is The height of the new rect-angle more classes.
+            height (int): this is The height of the new rectangle more classes.
         """
         self.width = width
         self.height = height
