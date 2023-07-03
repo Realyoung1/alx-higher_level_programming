@@ -1,10 +1,11 @@
 #!/usr/bin/python3
+
 # 8-rectangle.py
-"""Defines a Rectangle class."""
+"""Defining a rect-angle more classes"""
 
 
 class Rectangle:
-    """Represent a rectangle.
+    """Represents a rect-angle more classes
     Attributes:
         number_of_instances (int): The number of Rectangle instances.
         print_symbol (any): The symbol used for string representation.
@@ -14,10 +15,10 @@ class Rectangle:
     print_symbol = "#"
 
     def __init__(self, width=0, height=0):
-        """Initialize a new Rectangle.
+        """Initializes a new Rect-angle more classes
         Args:
-            width (int): The width of the new rectangle.
-            height (int): The height of the new rectangle.
+            width (int): this is The width of the new rect-angle more classes.
+            height (int): this is The height of the new rectangle more classes.
         """
         type(self).number_of_instances += 1
         self.width = width
@@ -25,7 +26,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """Get/set the width of the Rectangle."""
+        """Get/set the width of the rect-angle more classes"""
         return self.__width
 
     @width.setter
@@ -38,7 +39,7 @@ class Rectangle:
 
     @property
     def height(self):
-        """Get/set the height of the Rectangle."""
+        """Get/set the height of the rect-angle more classes"""
         return self.__height
 
     @height.setter
@@ -84,9 +85,9 @@ class Rectangle:
             return ("")
 
         rect = []
-        for i in range(self.__height):
-            [rect.append(str(self.print_symbol)) for j in range(self.__width)]
-            if i != self.__height - 1:
+        for k in range(self.__height):
+            [rect.append(str(self.print_symbol)) for d in range(self.__width)]
+            if k != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
 
