@@ -16,7 +16,7 @@ import sys
 
 
 def init_board(n):
-    """Initialize an `n`x`n` sized chess-board with 0's."""
+    """Initialize an `n`x`n` sized chessboard with 0's."""
     board = []
     [board.append([]) for i in range(n)]
     [row.append(' ') for i in range(n) for row in board]
@@ -24,7 +24,7 @@ def init_board(n):
 
 
 def board_deepcopy(board):
-    """Return a deepcopy of a chess-board."""
+    """Return a deepcopy of a chessboard."""
     if isinstance(board, list):
         return list(map(board_deepcopy, board))
     return (board)
@@ -33,10 +33,10 @@ def board_deepcopy(board):
 def get_solution(board):
     """Return the list of lists representation of a solved chessboard."""
     solution = []
-    for m in range(len(board)):
-        for n in range(len(board)):
-            if board[m][n] == "Q":
-                solution.append([m, n])
+    for r in range(len(board)):
+        for c in range(len(board)):
+            if board[r][c] == "Q":
+                solution.append([r, c])
                 break
     return (solution)
 
@@ -51,45 +51,45 @@ def xout(board, row, col):
         col (int): The column where a queen was last played.
     """
     # X out all forward spots
-    for n in range(col + 1, len(board)):
-        board[row][n] = "x"
+    for c in range(col + 1, len(board)):
+        board[row][c] = "x"
     # X out all backwards spots
-    for n in range(col - 1, -1, -1):
-        board[row][n] = "x"
+    for c in range(col - 1, -1, -1):
+        board[row][c] = "x"
     # X out all spots below
-    for m in range(row + 1, len(board)):
-        board[m][col] = "x"
+    for r in range(row + 1, len(board)):
+        board[r][col] = "x"
     # X out all spots above
-    for m in range(row - 1, -1, -1):
-        board[m][col] = "x"
+    for r in range(row - 1, -1, -1):
+        board[r][col] = "x"
     # X out all spots diagonally down to the right
-    n = col + 1
-    for m in range(row + 1, len(board)):
-        if n >= len(board):
+    c = col + 1
+    for r in range(row + 1, len(board)):
+        if c >= len(board):
             break
-        board[m][n] = "x"
-        n += 1
+        board[r][c] = "x"
+        c += 1
     # X out all spots diagonally up to the left
-    n = col - 1
-    for m in range(row - 1, -1, -1):
-        if n < 0:
+    c = col - 1
+    for r in range(row - 1, -1, -1):
+        if c < 0:
             break
-        board[m][n]
-        n -= 1
+        board[r][c]
+        c -= 1
     # X out all spots diagonally up to the right
-    n = col + 1
-    for m in range(row - 1, -1, -1):
-        if n >= len(board):
+    c = col + 1
+    for r in range(row - 1, -1, -1):
+        if c >= len(board):
             break
-        board[m][n] = "x"
-        n += 1
+        board[r][c] = "x"
+        c += 1
     # X out all spots diagonally down to the left
-    n = col - 1
-    for m in range(row + 1, len(board)):
-        if n < 0:
+    c = col - 1
+    for r in range(row + 1, len(board)):
+        if c < 0:
             break
-        board[m][n] = "x"
-        n -= 1
+        board[r][c] = "x"
+        c -= 1
 
 
 def recursive_solve(board, row, queens, solutions):
@@ -106,11 +106,11 @@ def recursive_solve(board, row, queens, solutions):
         solutions.append(get_solution(board))
         return (solutions)
 
-    for n in range(len(board)):
-        if board[row][n] == " ":
+    for c in range(len(board)):
+        if board[row][c] == " ":
             tmp_board = board_deepcopy(board)
-            tmp_board[row][n] = "Q"
-            xout(tmp_board, row, n)
+            tmp_board[row][c] = "Q"
+            xout(tmp_board, row, c)
             solutions = recursive_solve(tmp_board, row + 1,
                                         queens + 1, solutions)
 
