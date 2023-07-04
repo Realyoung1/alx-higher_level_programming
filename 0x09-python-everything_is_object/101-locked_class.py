@@ -4,12 +4,12 @@
 # 101-locked_class.py
 
 
-"""Defines a locked class."""
+"""Defining a locked class."""
 
 
 class LockedClass:
     """
-    Prevent the user from instantiating new LockedClass attributes
+    Prevents the users from instantiating new LockedClass attributes
     for anything but attributes called 'first_name'.
     """
 
