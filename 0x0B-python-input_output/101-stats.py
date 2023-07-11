@@ -5,7 +5,7 @@ import sys
 
 def print_status():
     '''
-        Printings the status of the requets.
+        Printing the status of the requested.
     '''
     counter = 0
     size = 0
