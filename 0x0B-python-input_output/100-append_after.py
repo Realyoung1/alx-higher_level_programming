@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 functionss that insert a line of text to a file, after each line containin a specific strings.
 """
