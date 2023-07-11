@@ -2,6 +2,7 @@
 
 import sys
 
+
 def print_status():
     '''
         Printings the status of the requets.
