@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-''' a class Student that defines a student
+
+''' a classes Students that defines a students
 '''
 
 
 class Student:
-    '''module class student
+    '''modules classes students
     '''
 
     def __init__(self, first_name, last_name, age):
