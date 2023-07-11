@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Addingall argu to a Python lists and save them to a files."""
 import sys
 
