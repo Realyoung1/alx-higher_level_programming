@@ -1,10 +1,11 @@
 #!/usr/bin/python3
+
 import sys
 
 
 def print_status():
     '''
-        Printing the status of the request
+        Printings the status of the requested
     '''
     counter = 0
     size = 0
@@ -12,8 +13,8 @@ def print_status():
     status_codes = {"200": 0, "301": 0, "400": 0, "401": 0,
                     "403": 0, "404": 0, "405": 0, "500": 0}
 
-    for l in sys.stdin:
-        line = l.split()
+    for k in sys.stdin:
+        line = k.split()
         try:
             size += int(line[-1])
             code = line[-2]
