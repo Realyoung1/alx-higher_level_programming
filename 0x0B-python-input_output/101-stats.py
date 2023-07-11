@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-
 import sys
 
 
 def print_status():
     '''
-        Printing the status of the requested.
+        Printing the status of the request
     '''
     counter = 0
     size = 0
