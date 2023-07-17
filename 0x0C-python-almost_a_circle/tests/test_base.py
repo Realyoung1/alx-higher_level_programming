@@ -1,16 +1,16 @@
 #!/usr/bin/python3
-"""Define Rectangle Class
+"""Defined Rectangle Classes.
 """
 
 from models.rectangle import Rectangle
 
 
 class Square(Rectangle):
-    """Module Representation of Square
+    """Moduled Representation of Squares.
 """
 
     def __init__(self, size, x=0, y=0, id=None):
-        """Initialization a Square
+        """Initializing the Squares
         """
         super().__init__(size, size, x, y, id)
 
@@ -39,14 +39,14 @@ class Square(Rectangle):
         """module update square
         """
         if len(args):
-            for i, arg in enumerate(args):
+            for q, arg in enumerate(args):
                 if i == 0:
                     self.id = arg
-                elif i == 1:
+                elif q == 1:
                     self.size = arg
-                elif i == 2:
+                elif q == 2:
                     self.x = arg
-                elif i == 3:
+                elif q == 3:
                     self.y = arg
         else:
             for key, value in kwargs.items():
