@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 '''
-    Class Rectangle
+    Class Rectangles..
 '''
 from models.base import Base
 
 
 class Rectangle(Base):
     '''
-        Defining the Rectangle class
+        Definingss the Rectangle classes.
         Inherits from:
             Base
     '''
@@ -22,14 +22,14 @@ class Rectangle(Base):
     @property
     def width(self):
         '''
-            Returning private attribute
+            Returning private attributed.
         '''
         return self.__width
 
     @width.setter
     def width(self, value):
         '''
-            Setting private attribute
+            Settings privated attributes.
         '''
         self.setter_validation("width", value)
         self.__width = value
@@ -37,14 +37,14 @@ class Rectangle(Base):
     @property
     def height(self):
         '''
-            Returning private attribute
+            Returnings privated attributes.
         '''
         return self.__height
 
     @height.setter
     def height(self, value):
         '''
-            Setting private attribute
+            Settings privated attributes.
         '''
         self.setter_validation("height", value)
         self.__height = value
@@ -52,14 +52,14 @@ class Rectangle(Base):
     @property
     def x(self):
         '''
-            Returning private attribute
+            Returnings privated attributes.
         '''
         return self.__x
 
     @x.setter
     def x(self, value):
         '''
-            Setting private attribute
+            Settings privated attributes.
         '''
         self.setter_validation("x", value)
         self.__x = value
@@ -67,14 +67,14 @@ class Rectangle(Base):
     @property
     def y(self):
         '''
-            Returning private attribute
+            Returnings privated attributes.
         '''
         return self.__y
 
     @y.setter
     def y(self, value):
         '''
-            Setting private attribute
+            Settings privated attributes.
         '''
         self.setter_validation("y", value)
         self.__y = value
@@ -91,13 +91,13 @@ class Rectangle(Base):
         '''
         rectangle = ""
         print("\n" * self.y, end="")
-        for i in range(self.height):
+        for q in range(self.height):
             rectangle += (" " * self.x) + ("#" * self.width) + "\n"
         print(rectangle, end="")
 
     def update(self, *args, **kwargs):
         '''
-            Updates the arguments in the class
+            Updates the arguments in the class.
         '''
         if len(args) == 0:
             for key, val in kwargs.items():
@@ -114,7 +114,7 @@ class Rectangle(Base):
 
     def to_dictionary(self):
         '''
-            Returns a dictionary representation of this class
+            Returns a dictionary representation of this class.
         '''
         return {'x': getattr(self, "x"),
                 'y': getattr(self, "y"),
