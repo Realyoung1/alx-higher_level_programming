@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Unit test class Square"""
+"""Units tests classes Squares"""
 import unittest
 from models.square import Square
 import sys
