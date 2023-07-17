@@ -1,34 +1,34 @@
 #!/usr/bin/python3
-"""Define Rectangle Class
+"""Defines Rectangles Classes.
 """
 
 from models.rectangle import Rectangle
 
 
 class Square(Rectangle):
-    """Module Representation of Square
+    """Modules Representation of Squared.
 """
 
     def __init__(self, size, x=0, y=0, id=None):
-        """Initialization a Square
+        """Initializing the Squares.
         """
         super().__init__(size, size, x, y, id)
 
     @property
     def size(self):
-        """module Square size getter
+        """modules Square size getters.
         """
         return self.width
 
     @size.setter
     def size(self, value):
-        """module Square size setter
+        """modules Squares size setters.
         """
         self.width = value
         self.height = value
 
     def __str__(self):
-        """module string represation of square
+        """moduled strings represation of squares.
         """
         return "[Square] ({:d}) {:d}/{:d} - {:d}".format(self.id,
                                                          self.x,
@@ -36,17 +36,17 @@ class Square(Rectangle):
                                                          self.width)
 
     def update(self, *args, **kwargs):
-        """module update square
+        """modules update squared.
         """
         if len(args):
-            for i, arg in enumerate(args):
-                if i == 0:
+            for q, arg in enumerate(args):
+                if q == 0:
                     self.id = arg
-                elif i == 1:
+                elif q == 1:
                     self.size = arg
-                elif i == 2:
+                elif q == 2:
                     self.x = arg
-                elif i == 3:
+                elif q == 3:
                     self.y = arg
         else:
             for key, value in kwargs.items():
