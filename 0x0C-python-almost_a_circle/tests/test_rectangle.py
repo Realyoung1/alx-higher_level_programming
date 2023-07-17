@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Unit test class Rectangle"""
+"""Units tests class Rectangles"""
 import unittest
 import json
 import sys
