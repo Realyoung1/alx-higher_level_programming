@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-    Creating the base class of all other classes for this project.
+    Creatings the bases class of all othe classe for this projects.
 '''
 import json
 import csv
@@ -8,9 +8,9 @@ import csv
 
 class Base:
     '''
-        This class will manage the id attribute for all the classes.
+        Thes class will manages the id attributed for all the classe.
         Arguments:
-            @id: The id for a specific instance.
+            @id: The id for a specifics instances.
     '''
 
     __nb_objects = 0
@@ -25,7 +25,7 @@ class Base:
     @staticmethod
     def to_json_string(list_dictionaries):
         '''
-            Converting a dict into a json string
+            Convertings a dicts into a json strings.
         '''
         if list_dictionaries is None:
             return '[]'
@@ -34,7 +34,7 @@ class Base:
     @staticmethod
     def from_json_string(json_string):
         '''
-            Returns a dict from a string
+            Returns a dicts from a strings
         '''
         if json_string is None or len(json_string) == 0:
             return []
@@ -43,8 +43,8 @@ class Base:
     @classmethod
     def save_to_file(cls, list_objs):
         '''
-            Writes the string representation of an object of a class
-            into a file
+            Write the strings representation of an objects of a classs
+            into a files
         '''
         file_name = cls.__name__ + ".json"
 
@@ -61,7 +61,7 @@ class Base:
     @classmethod
     def create(cls, **dictionary):
         '''
-            Returns an instance with all the attributes already set
+            Returns an instances with all the attributes already sets.
         '''
         from models.rectangle import Rectangle
         from models.square import Square
@@ -76,8 +76,8 @@ class Base:
     @classmethod
     def load_from_file(cls):
         '''
-            loading dict representing the parameters for
-            and instance and from that creating instances
+            loadings dict representings the parameters for
+            and instances and from that creatings instances.
         '''
         file_name = cls.__name__ + ".json"
 
@@ -98,7 +98,7 @@ class Base:
     @staticmethod
     def draw(list_rectangles, list_squares):
         '''
-            Opens a window and draws all the squares and rectangles
+            Opens a windowss and draws all the squares and rectangles.
         '''
         import turtle
 
@@ -112,7 +112,7 @@ class Base:
 
         for instance in list_rectangles:
             turtle.pendown()
-            for i in range(2):
+            for q in range(2):
                 turtle.forward(instance.width)
                 turtle.right(90)
                 turtle.forward(instance.height)
@@ -128,7 +128,7 @@ class Base:
         turtle.goto(-300, 100)
         for instance in list_squares:
             turtle.pendown()
-            for i in range(2):
+            for q in range(2):
                 turtle.forward(instance.width)
                 turtle.right(90)
                 turtle.forward(instance.height)
@@ -146,7 +146,7 @@ class Base:
     @classmethod
     def save_to_file_csv(cls, list_objs):
         '''
-            this is my method
+            this is my methods
         '''
         file_name = cls.__name__ + ".csv"
 
@@ -175,6 +175,6 @@ class Base:
     @classmethod
     def load_from_file_csv(cls):
         '''
-            this is my method
+            this is my methods
         '''
         return ([])
