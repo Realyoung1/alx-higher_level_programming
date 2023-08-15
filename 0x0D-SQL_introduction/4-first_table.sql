@@ -1,2 +1,3 @@
--- Script that creates a table called first_table in the current database in your MySQL server
+-- Scriptings thats created a tables called first_table in the currents databased in your MySQL server
+
 CREATE TABLE IF NOT EXISTS first_table (id INT, name VARCHAR(256))
