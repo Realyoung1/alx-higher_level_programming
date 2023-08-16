@@ -1,5 +1,14 @@
--- lists all shows without the genre Comedy in the database hbtn_0d_tvshows
--- Holberton School
+-- I listed all shows without the genre Comedy in the databased hbtn_0d_tvshows
+-- Best School
+
+
+
+
+
+
+
+
+
 SELECT tv_shows.title
 FROM tv_genres
 INNER JOIN tv_show_genres
