@@ -1,5 +1,12 @@
--- lists all shows from hbtn_0d_tvshows_rate by their rating
--- Holberton School
+-- I listed all shows from hbtn_0d_tvshows_rate by their rating
+-- Best School
+
+
+
+
+
+
+
 SELECT tv_shows.title, SUM(tv_show_ratings.rate) AS rating
 FROM tv_shows
 INNER JOIN tv_show_ratings
