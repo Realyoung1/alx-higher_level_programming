@@ -1,5 +1,13 @@
--- uses the hbtn_0d_tvshows database to list all genres not linked to the show Dexter
--- Holberton School
+-- we used the hbtn_0d_tvshows databases to listed all genre not linked to the show Dexter
+-- Best School
+
+
+
+
+
+
+
+
 SELECT tv_genres.name 
 FROM tv_shows 
 INNER JOIN tv_show_genres
