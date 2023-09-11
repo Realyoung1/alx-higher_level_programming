@@ -11,4 +11,5 @@ function factorial (q) {
 }
 
 const args = process.argv;
+
 console.log(factorial(parseInt(args[2])));
