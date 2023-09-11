@@ -1,6 +1,6 @@
 #!/usr/bin/node
 /*
-  print Found or not if exists input arguments
+  writing a script that pass a message depending on the number of args
 */
 const args = process.argv;
 if (args.length <= 2) {
