@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 /*
   func for the scripts printings three lines
 */
