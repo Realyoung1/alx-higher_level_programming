@@ -3,6 +3,6 @@
   func for the script printing three lines
 */
 const myVar = 'C is fun\n';
-  'Python is cool\n';
-    'Javascript is amazing';
+const myvar = 'Python is cool\n';
+const myvar = 'Javascript is amazing';
 console.log(myVar);
