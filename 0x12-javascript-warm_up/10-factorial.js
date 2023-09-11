@@ -3,11 +3,11 @@
   this script computed and printed factorials
 */
 
-function factorial (a) {
-  if (a === 1 || isNaN(a)) {
+function factorial (q) {
+  if (q === 1 || isNaN(q)) {
     return 1;
   }
-  return a * factorial(a - 1);
+  return q * factorial(q - 1);
 }
 
 const args = process.argv;
