@@ -1,5 +1,10 @@
 #!/usr/bin/node
+/*
+  script that searches the second biggest intes
+*/
+
 const args = process.argv;
+
 const len = process.argv.length;
 if (len <= 3) {
   console.log(0);
