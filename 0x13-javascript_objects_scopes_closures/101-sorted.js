@@ -2,7 +2,7 @@
 /*
      scripted that imported a dictionary of occurrences
      Your script must import dict from the file 101-data.js
-     In the new dictionary: 
+     In the new dictionary,
 */
 const dict = require('./101-data').dict;
 
