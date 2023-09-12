@@ -1,6 +1,6 @@
 #!/usr/bin/node
 /*
-    rectangle classes that defines rectangle int and > 0
+    rectangle classes that defines rect int and > 0
     createding of a printing methods
 */
 
