@@ -1,8 +1,10 @@
 #!/usr/bin/node
 /*
-    concats 2 files
+    scripted that concats two files.
+    The first argument is the file path of the first source file
+    The second argument is the file path of the second source file
+    The third argument is the file path of the destination
 */
-
 const fs = require('fs');
 const file1 = process.argv[2];
 const file2 = process.argv[3];
