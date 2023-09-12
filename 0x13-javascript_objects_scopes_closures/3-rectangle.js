@@ -1,7 +1,7 @@
 #!/usr/bin/node
 /*
-    rectangle classes that defines rect int and > 0
-    createding of a printing methods
+    Class 2 init arg if are int and > 0
+    create a print method
 */
 
 class Rectangle {
@@ -11,7 +11,7 @@ class Rectangle {
       this.height = h;
     }
   }
-    
+
   print () {
     for (let height = 0; height < this.height; height++) {
       console.log('X'.repeat(this.width));
