@@ -14,5 +14,4 @@ for (const obj in dict) {
     newDict[dict[obj]] = [obj];
   }
 }
-
 console.log(newDict);
