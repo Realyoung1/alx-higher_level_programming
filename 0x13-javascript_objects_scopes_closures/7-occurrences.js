@@ -1,8 +1,8 @@
 #!/usr/bin/node
 /*
-    returns the number of occurrences in a list
+    this is the fun which returned number of occurrences in a list:
+    Prototype: exports.nbOccurences = function (list, searchElement)
 */
-
 exports.nbOccurences = function (list, searchElement) {
   let count = 0;
   for (const element of list) {
