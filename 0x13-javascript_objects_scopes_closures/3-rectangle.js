@@ -1,7 +1,7 @@
 #!/usr/bin/node
 /*
-    Class 2 init arg if are int and > 0
-    create a print method
+    rectangle classed that defines rect int and > 0
+    createding of a print methods
 */
 class Rectangle {
   constructor (w, h) {
