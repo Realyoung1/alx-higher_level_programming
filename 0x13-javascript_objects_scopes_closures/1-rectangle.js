@@ -1,8 +1,7 @@
 #!/usr/bin/node
 /*
-    Class 2 init arg
+    rectangle class that defines rectangle
 */
-
 class Rectangle {
   constructor (w, h) {
     this.width = w;
