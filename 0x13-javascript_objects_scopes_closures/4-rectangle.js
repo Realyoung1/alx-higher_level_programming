@@ -1,11 +1,10 @@
 #!/usr/bin/node
 /*
-    Class 2 init arg if are int and > 0
-    create a print method
-    create a double method
-    create a rotate method
+    ectangle classed that defines rect int and > 0
+    createding a printing methods
+    createding a doubleing methods
+    createding a rotateing methods
 */
-
 class Rectangle {
   constructor (w, h) {
     if (Number.isInteger(w) && Number.isInteger(h) && w > 0 && h > 0) {
@@ -31,5 +30,4 @@ class Rectangle {
     this.width = this.width * 2;
   }
 }
-
 module.exports = Rectangle;
