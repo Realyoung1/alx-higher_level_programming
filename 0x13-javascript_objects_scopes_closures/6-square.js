@@ -1,9 +1,10 @@
 #!/usr/bin/node
 /*
-    Class Square
-    inherit from Rectangle
-    create a charPrint(c) method
+    Square classed that defines squares
+    inherited from a Rectangless
+    created a charPrint(c) methodings
 */
+
 class Square extends require('./5-square.js') {
   constructor (size) {
     super(size, size);
@@ -19,5 +20,4 @@ class Square extends require('./5-square.js') {
     }
   }
 }
-
 module.exports = Square;
