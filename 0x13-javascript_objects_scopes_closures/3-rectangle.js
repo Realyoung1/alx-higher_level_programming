@@ -3,6 +3,7 @@
     rectangle classes that defines rectangle int and > 0
     createding of a printing methods
 */
+
 class Rectangle {
   constructor (w, h) {
     if (Number.isInteger(w) && Number.isInteger(h) && w > 0 && h > 0) {
@@ -17,4 +18,5 @@ class Rectangle {
     }
   }
 }
+
 module.exports = Rectangle;
