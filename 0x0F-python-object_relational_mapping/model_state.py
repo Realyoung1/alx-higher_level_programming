@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    cities one databases
+    states one databases
     this scripts takes two args
     this script conncected with MySQL
     I sorted the result in an ascending order
