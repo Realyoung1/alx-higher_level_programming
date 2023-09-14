@@ -1,10 +1,16 @@
 #!/usr/bin/python3
 """
-    Get the states of database
+    This is the cripted that list all states objects from a databased
+    this scripts takes two args
+    this script conncected with MySQL
+    I sorted the result in an ascending order
+    The result was displayed based on the given examples
+    I make sure my code was not executed when imported
 """
 import sys
 from model_state import Base, State
 from sqlalchemy import (create_engine)
+
 
 if __name__ == "__main__":
     engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format(
