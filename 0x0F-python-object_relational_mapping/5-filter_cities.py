@@ -1,13 +1,17 @@
 #!/usr/bin/python3
 """
-    Get the cities of 1 state of a database
+    Getting the cities one of state of a databased
+    this scripts takes two args
+    this script conncected with MySQL
+    I sorted the result in an ascending order
+    The result was displayed based on the given examples
+    I make sure my code was not executed when imported
 """
 import MySQLdb
 from sys import argv
 
-
 def main():
-    """Only executes when is not imported"""
+    """I only executed my codes is not imported"""
     db = MySQLdb.connect(host="localhost",
                          user=argv[1],
                          port=3306,
