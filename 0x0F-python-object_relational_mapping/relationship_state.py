@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 """
-    Get the cities of 1 state of a database
+    states one databases
+    this scripts takes two args
+    this script conncected with MySQL
+    I sorted the result in an ascending order
+    The result was displayed based on the given examples
+    I make sure my code was not executed when imported
 """
 
 from sqlalchemy import Column, Integer, String
