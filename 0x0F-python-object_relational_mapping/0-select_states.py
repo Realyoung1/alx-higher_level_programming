@@ -11,7 +11,6 @@ import MySQLdb
 from sys import argv
 
 
-
 def main():
     """I only executed my codes is not imported"""
     db = MySQLdb.connect(host="localhost",
