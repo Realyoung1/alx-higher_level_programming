@@ -10,6 +10,7 @@
 import MySQLdb
 from sys import argv
 
+
 def main():
     """I only executed my codes is not imported"""
     db = MySQLdb.connect(host="localhost",
@@ -26,6 +27,7 @@ def main():
     numrows = c.execute(command, (argv[4],))
     states = c.fetchall()
     print(", ".join(citistate[0] for citistate in states))
+
 
 if __name__ == "__main__":
     main()
