@@ -9,9 +9,6 @@
 """
 import MySQLdb
 from sys import argv
-
-
-
 def main():
     """I only executed my codes is not imported"""
     db = MySQLdb.connect(host="localhost",
@@ -24,6 +21,5 @@ def main():
     states = c.fetchall()
     for idstate in states:
         print(idstate)
-
 if __name__ == "__main__":
     main()
