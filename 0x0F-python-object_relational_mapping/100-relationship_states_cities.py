@@ -28,3 +28,7 @@ if __name__ == "__main__":
     new_state.cities = [City(name='San Francisco')]
     session.add(new_state)
     session.commit()
+
+
+if __name__ == "__main__":
+    main()
