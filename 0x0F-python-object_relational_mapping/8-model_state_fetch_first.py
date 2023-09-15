@@ -23,3 +23,7 @@ if __name__ == "__main__":
         print("{}: {}".format(result.id, result.name))
     except:
         print("Nothing")
+
+
+if __name__ == "__main__":
+    main()
