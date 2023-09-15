@@ -23,3 +23,7 @@ if __name__ == "__main__":
     result = session.query(State, City).filter(State.id == City.state_id).all()
     for state, city in result:
         print("{}: ({}) {}".format(state.name, city.id, city.name))
+
+
+if __name__ == "__main__":
+    main()
