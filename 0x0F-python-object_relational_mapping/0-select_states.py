@@ -2,6 +2,10 @@
 """
     the scripts listed all states from the database hbtn_0e_0_usa
     this scripts takes two args
+    this script conncected with MySQL
+    I sorted the result in an ascending order
+    The result was displayed based on the given examples
+    I make sure my code was not executed when imported
 """
 import MySQLdb
 from sys import argv
