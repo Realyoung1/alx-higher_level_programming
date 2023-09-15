@@ -23,3 +23,7 @@ if __name__ == "__main__":
         print("{}".format(result.id))
     except:
         print("Not found")
+
+
+if __name__ == "__main__":
+    main()
