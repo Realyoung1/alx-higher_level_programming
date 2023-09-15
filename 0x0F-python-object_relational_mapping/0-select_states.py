@@ -25,6 +25,5 @@ def main():
         print(idstate)
 
 
-
 if __name__ == "__main__":
     main()
