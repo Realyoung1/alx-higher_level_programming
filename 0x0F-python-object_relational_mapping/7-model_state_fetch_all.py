@@ -18,3 +18,7 @@ if __name__ == "__main__":
     result = engine.execute('SELECT * FROM states ORDER BY states.id ASC')
     for row in result:
         print("{}: {}".format(row[0], row[1]))
+
+
+if __name__ == "__main__":
+    main()
