@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
     find_peak test function
 """
