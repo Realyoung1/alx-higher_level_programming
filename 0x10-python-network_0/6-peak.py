@@ -5,7 +5,6 @@
     find_peak test function
 """
 
-
 def find_peak(list_of_integers):
     """Finded peak in the list of unsorted integers"""
     if len(list_of_integers) == 0:
