@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    X-Request-Id value was diplayed by this script, an also takes url, send request to url
+    X-Request-Id value was diplayed by this script, an also takes url
     requests wnd sys packages was used
     each request varibke valies are different
     args was not checked
