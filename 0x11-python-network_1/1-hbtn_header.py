@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-    X-Request-Id value was diplayed by this script, an also takes url, send request to url
+    X-Request-Id value was diplayed by this script, send requrl
     urllib and sys package was used
     no other packages was imported
     each variable values are diffent to each request
     i didnt check any values
-    with statement was used 
+    with statement was used
 """
 
 from urllib import (request)
