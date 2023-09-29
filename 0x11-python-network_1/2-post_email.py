@@ -4,7 +4,7 @@
     the email was set tk the email variable
     no other oackages was imported other than urllib and sys
     i didnt check any values
-    with statement was used 
+    with statement was used
 """
 
 from urllib import (request, parse)
