@@ -3,7 +3,7 @@
     python scripted tyat takes two args
     repository name is the 1st arg
     owner name is the 2nd arg
-    requests and sys oackahe was useed 
+    requests and sys oackahe was useed
     no other oackage was imported
     no args was checked
 """
