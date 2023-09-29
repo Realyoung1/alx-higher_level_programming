@@ -25,5 +25,5 @@ if __name__ == "__main__":
             print("[{}] {}".format(obj_js.get("id"), obj_js.get("name")))
         else:
             print("No result")
-    except:
+    except User.DoesNotExist:
         print("Not a valid JSON")
