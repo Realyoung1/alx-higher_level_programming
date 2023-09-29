@@ -1,7 +1,12 @@
 #!/usr/bin/python3
 """
-    Takes in a URL, sends a request to the URL and displays the body
-    of the response (decoded in utf-8).
+    it takes URL, also sends a request to the URL which displayed the body
+    urllib.error.HTTPError was managaed with Error code exceptions
+    no other packages was imported
+    each variable values are diffent to each request
+    i didnt check any values
+    with statement was used 
+    it was rested on the sandbox
 """
 
 from urllib import (request, parse, error)
