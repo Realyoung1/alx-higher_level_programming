@@ -7,7 +7,6 @@
      i used the "with" statement
 """
 
-
 from urllib import (request)
 if __name__ == "__main__":
     req = request.Request("https://alx-intranet.hbtn.io/status")
