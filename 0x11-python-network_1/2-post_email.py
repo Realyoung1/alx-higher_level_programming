@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """
-    Takes in a URL and an email, sends a POST request to the passed URL
-    with the email as a parameter, and displays the body of the response
-    (decoded in utf-8)
+    URL was taken and an email, sends a POST request
+    the email was set tk the email variable
+    no other oackages was imported other than urllib and sys
+    i didnt check any values
+    with statement was used 
 """
 
 from urllib import (request, parse)
@@ -17,4 +19,4 @@ if __name__ == "__main__":
     with request.urlopen(req) as response:
         body = response.read()
 
-    print(body.decode('utf8'))
+    print(body.decode('utf-8'))
