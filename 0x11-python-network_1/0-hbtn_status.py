@@ -10,7 +10,7 @@
 from urllib import (request)
 
 if __name__ == "__main__":
-    req = request.Request("https://intranet.hbtn.io/status")
+    req = request.Request("https://alx-intranet.hbtn.io/status")
     with request.urlopen(req) as response:
         body = response.read()
 
