@@ -1,7 +1,13 @@
 #!/usr/bin/python3
 """
-    Takes in a letter and sends a POST request to
-    http://0.0.0.0:5000/search_user with the letter as a parameter.
+    this took in a letter and sends a POST request to http://0.0.0.0:5000/search_user
+    q was rhe variable
+    q="" was setted in case there is no args
+    the id and name was displayed like this: [<id>] <name>
+    Not a valid JSON incase the JSON is invalid
+    No result incase the JSON is empty
+    request and sys packaged was used 
+    amd no other oackages was imppryed
 """
 
 import requests
