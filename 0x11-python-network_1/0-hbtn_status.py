@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-     I fetchesd https://intranet.hbtn.io/status with this python script
+     I fetchesd https://alx-intranet.hbtn.io/status with this python script
      urllib package was used
      no other packages was imported
      the body of the response was diplayed
@@ -10,7 +10,7 @@
 from urllib import (request)
 
 if __name__ == "__main__":
-    req = request.Request("https://intranet.hbtn.io/status")
+    req = request.Request("https://alx-intranet.hbtn.io/status")
     with request.urlopen(req) as response:
         body = response.read()
 
