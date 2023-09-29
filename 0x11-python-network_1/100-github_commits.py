@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 """
-    list 10 commits (from the most recent to oldest) of the repository
-    “rails” by the user “rails”
+    python scripted tyat takes two args
+    repository name is the 1st arg
+    owner name is the 2nd arg
+    requests and sys oackahe was useed 
+    no other oackage was imported
+    no args was checked
 """
 
 import requests
