@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 """
-    Takes in a URL, sends a request to the URL and displays the value
-    of the X-Request-Id variable found in the header of the response
+    X-Request-Id value was diplayed by this script, an also takes url, send request to url
+    urllib and sys package was used
+    no other packages was imported
+    each variable values are diffent to each request
+    i didnt check any values
+    with statement was used 
 """
 
 from urllib import (request)
