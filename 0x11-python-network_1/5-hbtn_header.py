@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
-    takes in a URL, sends a request to the URL and displays the
-    value of the variable X-Request-Id in the response header
+    X-Request-Id value was diplayed by this script, an also takes url, send request to url
+    requests wnd sys packages was used
+    each request varibke valies are different
+    args was not checked
 """
 
 import requests
