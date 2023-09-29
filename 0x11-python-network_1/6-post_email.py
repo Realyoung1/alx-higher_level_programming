@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 """
-    takes in a URL, sends a request to the URL and displays the
-    value of the variable X-Request-Id in the response header
+    it taked in a URL, the email and sends a POST request
+    email was sent kn the variable emails
+    onky requesta and sys pckahes was used
+    args erroe was not checked
+    it was tested in the sandbox
 """
 
 import requests
