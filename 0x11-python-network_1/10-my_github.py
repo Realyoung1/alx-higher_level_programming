@@ -1,7 +1,12 @@
 #!/usr/bin/python3
 """
-    Take your Github credentials (username and password) and uses
-    the Github API to display your id
+    scripted which took my Github credentials (username and password)
+    basic authenticator and personak acces token was hsed 
+    my user name was the first arg
+    my secojd args was my PAT
+    requests and sys oackahe was useed 
+    no other oackage was imported
+    no args was checked
 """
 
 import requests
