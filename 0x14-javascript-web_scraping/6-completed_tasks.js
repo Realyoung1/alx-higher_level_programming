@@ -3,7 +3,7 @@
     scripted comput number of tasks completed by userID
     when the first ARG is the API URL
     i printed only user with the completed task
-    modue request used    
+    modue request used
 */
 
 const request = require('request');
