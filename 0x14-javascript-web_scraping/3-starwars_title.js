@@ -1,8 +1,12 @@
 #!/usr/bin/node
 /*
-     Prints the title of a Star Wars movie
-     where the episode number matches a given integer
+     Printed the Star Wars movies
+     when the first arg is the movie ID
+     Star wars API with the endpoint
+     https://swapi-api.alx-tools.com/api/films/:id
+     module request used
 */
+
 const request = require('request');
 const movieID = parseInt(process.argv[2]);
 const url = 'https://swapi-api.hbtn.io/api/films/' + movieID;
