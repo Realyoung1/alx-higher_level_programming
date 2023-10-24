@@ -1,7 +1,12 @@
 #!/usr/bin/node
 /*
-    prints all characters of a Star Wars movie in order
+    printed characters of a Star Wars movie in order
+    the first iss the Movie ID
+    displayed charAacters name in order
+    Star wars API used
+    module request used
 */
+
 const request = require('request');
 const movieId = process.argv[2];
 const url = 'https://swapi-api.hbtn.io/api/films/' + movieId;
