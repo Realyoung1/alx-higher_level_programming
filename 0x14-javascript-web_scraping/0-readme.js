@@ -1,7 +1,10 @@
 #!/usr/bin/node
 /*
-    reads and prints the content of a file
+    when first args is the first path
+    i make sure the content of the file read utf-8
+    th error object was print in case an erro occur
 */
+
 const fs = require('fs');
 const nameFile = process.argv[2];
 
