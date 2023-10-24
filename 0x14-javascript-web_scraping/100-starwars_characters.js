@@ -1,7 +1,12 @@
 #!/usr/bin/node
 /*
-    prints all characters of a Star Wars movie
+    printed characters of a Star Wars movie
+    where the first agr is the Movie ID -
+    diplsyed character anem by line
+    used the  Star wars API
+    module request used
 */
+
 const request = require('request');
 const movieId = process.argv[2];
 const url = 'https://swapi-api.hbtn.io/api/films/' + movieId;
